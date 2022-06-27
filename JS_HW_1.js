@@ -24,7 +24,8 @@ item_5 = item_3;
 let item_6, item_6_type;
 item_6 = 15;
 // впоследствии выяснилось, что присваивать переменной item_6_type необходимо не ТИП переменной item_6, 
-// а ЗНАЧЕНИЕ типа в виде строки:) поэтому данный кусок кода закомменитрован
+// а ЗНАЧЕНИЕ типа в виде строки (небольшая путаница в терминологии - присваивание и приведение):) 
+// поэтому данный кусок кода закомменитрован
 //
 // if(typeof(item_6) === "boolean") {
 // item_6_type = Boolean(item_6_type);
@@ -50,4 +51,3 @@ if(age_1 < age_2) {
 } else if(age_1 > age_3) {
   console.log("Keep calm and look Culture channel");
 } else {console.log("Technical work");}
-
