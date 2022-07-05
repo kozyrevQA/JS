@@ -23,7 +23,7 @@ const checkAge = function(age) {
       } else throw err; // Если всё же NaN пройдет, то бросаем исключение      
     }
 
-    switch (typeof age) {
+    switch (typeof age) { //  конструкция switch..case, на мой взгляд, в этом месте гораздо нагляднее чем if
       case "string":
         checkAgeLogic(Number(age.trim()));  // передаем приведенное к number значение, предварительно обрезав пробелы, на случай, если пользователь случайно их добавил
         break;
