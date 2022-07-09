@@ -54,3 +54,44 @@
     <li>Иначе вывести в консоль: <code>“Technical work”</code></li>
   </ol> 
 </details>
+______________________________
+<br>
+<details>
+  <summary>Задания со звёздочками</summary>
+  <ul>
+    <li>
+    <details><summary>Задание 1*</summary>
+      Преобразовать написанный код в 26-33 пунктах в функцию, принимающую на вход возраст.<br>
+      Пример:<br>
+      <code> 
+      const checkAge = function(age) {<br>
+      Ваши преобразования
+      <br>}</code><br>
+      Вывести в консоль результат работы функции с возрастами 17, 18, 61
+    </details>
+    Результат выполнения находится в файле <a href="https://github.com/kozyrevQA/JS/blob/main/JS_HW_1_1Star.js">JS_HW_1_1Star.js</a>
+    </li>
+    <li>
+    <details><summary>Задание 2**</summary>
+    Преобразовать задание 1* таким образом, чтобы первым делом в функции проверялся тип данных. 
+    И если он не <code>Number</code> - кидалась ошибка.
+    </details>
+    Результат выполнения находится в файле <a href="https://github.com/kozyrevQA/JS/blob/main/JS_HW_1_2Star.js">JS_HW_1_2Star.js</a>
+    </li>
+    <li>
+    <details><summary>Задание 3***</summary>
+    Преобразовать 2* таким образом, чтобы значение <code>'2'</code> (строка в которой лежит ТОЛЬКО ЦИФРА) пропускалось, 
+    преобразовываясь в <code>number</code>
+    </details>
+    Результат выполнения задания находится в файле <a href="https://github.com/kozyrevQA/JS/blob/main/JS_HW_1_3Star.js">JS_HW_1_3Star.js</a>
+    </li>
+    <li>
+    <details><summary>Задание 4****</summary>
+    Преобразовать задание 3* таким образом, чтобы возраст вводился используя функцию prompt 
+    в привязанной верстке (index.html)<br><br>
+    <i>Пошёл чуть дальше и немного оформил HTML при помощи CSS, скрипт прикрутил к кнопке, добавил еще одну кнопку для очистки области вывода</i>
+    </details>
+    Результат выполения задания находится в файлах <a href="https://github.com/kozyrevQA/JS/blob/main/index.html">index.html</a> и <a href="https://github.com/kozyrevQA/JS/blob/main/JS_HW_1_4Star.js">JS_HW_1_4Star.js</a>
+    </li>
+  </ul>
+</details>
